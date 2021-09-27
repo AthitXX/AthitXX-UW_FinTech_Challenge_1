@@ -126,7 +126,7 @@ print(inexpensive_loans)
 header = ["loan_price", "remaining_months", "repayment_interval", "future_value"]
 
 # Set the output file path.
-output_path = Path("inexpensive_loans.csv")
+output_path = Path("/Users/got/Downloads/AthitXX-UW_FinTech_Challenge_1/inexpensive_loans.csv")
 
 # Used the csv library and `csv.writer` to write the header row
 # and each row of `loan.values()` from the `inexpensive_loans` list.
